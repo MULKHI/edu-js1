@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Tugas Membuat 3 variable</h3>
+    <p>disini saya mencoba membuat <b>variable pertama dengan angka 10</b> <br>dan <b>variable kedua dengan kalimat "saya belajar javascript"</b></p>
+    <p id ="variable_1"></p>
+    <p id ="variable_2"></p>
+    <p>kenapa hasilnya NaN karena angka dan huruf tidak bisa dijumlahkan</p>
+
+    <hr>
+
+    <h3>SOLUSI</h3>
+    <p>agar bisa dijumlahkan harus menjumlahkan <b>sesama variable angka</b><br>
+    dan disini saya mencoba memnbuat <b>variable ketiga dengan angka 20</b> lalu saya jumlahkan dengan <b>variable pertama</b></p>
+    <p id ="variable_3"></p>
+    
+
+    <script>
+        let a, b, c;
+        a = 10;
+        b = "saya belajar javascript"
+        c = 20;
+        document.getElementById("variable_1").innerHTML = "saya coba jumlahkan menggunakan (*) dan hasilnya : " + a * b;
+        // document.getElementById("variable_2").innerHTML = b;
+        document.getElementById("variable_3").innerHTML =" 10 x 20 hasilnya adalah : " + a * c;
+    </script>
+    
+</body>
+</html>
